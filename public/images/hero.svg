@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="청자빛 화병과 접힌 보자기, 나무 쟁반이 놓인 정물">
+  <rect width="1200" height="800" fill="#F7F2E8"/>
+  <rect y="560" width="1200" height="240" fill="#EDE4D3"/>
+  <ellipse cx="600" cy="640" rx="420" ry="40" fill="#1F1D1A" opacity="0.08"/>
+  <!-- 나무 쟁반 -->
+  <path d="M170 560 H1030 L990 640 H210 Z" fill="#A67B54"/>
+  <path d="M170 560 H1030 L1020 580 H180 Z" fill="#B88D66"/>
+  <!-- 접힌 보자기 -->
+  <path d="M230 560 L420 470 L560 500 L540 560 Z" fill="#B07A6B"/>
+  <path d="M420 470 L560 500 L520 530 L400 505 Z" fill="#C79284"/>
+  <path d="M230 560 L400 505 L540 560 Z" fill="#9A6659"/>
+  <!-- 화병 -->
+  <path d="M700 560 C640 540 620 440 660 360 C672 336 676 316 672 290 H748 C744 316 748 336 760 360 C800 440 780 540 720 560 Z" fill="#9DB5AA"/>
+  <path d="M700 560 C640 540 620 440 660 360 C672 336 676 316 672 290 H700 C690 330 680 380 686 440 C690 500 700 540 712 560 Z" fill="#35564E" opacity="0.18"/>
+  <ellipse cx="710" cy="290" rx="40" ry="10" fill="#35564E"/>
+  <path d="M652 420 C690 440 740 440 778 420" fill="none" stroke="#35564E" stroke-width="3" opacity="0.5"/>
+  <!-- 작은 사발 -->
+  <path d="M850 540 H970 C970 590 940 612 910 612 C880 612 850 590 850 540 Z" fill="#9DB5AA"/>
+  <ellipse cx="910" cy="540" rx="60" ry="12" fill="#35564E"/>
+  <!-- 마른 가지 -->
+  <path d="M710 290 C720 220 760 160 820 120" fill="none" stroke="#1F1D1A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M742 220 C770 215 790 200 800 180" fill="none" stroke="#1F1D1A" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="820" cy="120" r="10" fill="#B07A6B"/>
+  <circle cx="800" cy="180" r="8" fill="#B07A6B"/>
+</svg>

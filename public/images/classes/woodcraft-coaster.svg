@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-hidden="true">
+  <rect width="800" height="600" fill="#F7F2E8"/>
+  <rect y="400" width="800" height="200" fill="#EDE4D3"/>
+  <ellipse cx="400" cy="440" rx="220" ry="40" fill="#1F1D1A" opacity="0.12"/>
+  <ellipse cx="400" cy="360" rx="190" ry="60" fill="#8A6140"/>
+  <ellipse cx="400" cy="345" rx="190" ry="60" fill="#A67B54"/>
+  <ellipse cx="400" cy="345" rx="140" ry="42" fill="none" stroke="#8A6140" stroke-width="4" opacity="0.7"/>
+  <ellipse cx="400" cy="345" rx="90" ry="26" fill="none" stroke="#8A6140" stroke-width="4" opacity="0.7"/>
+  <ellipse cx="400" cy="345" rx="40" ry="11" fill="none" stroke="#8A6140" stroke-width="4" opacity="0.7"/>
+  <g transform="rotate(-28 250 250)">
+    <rect x="120" y="235" width="170" height="30" rx="12" fill="#1F1D1A"/>
+    <rect x="290" y="242" width="130" height="16" fill="#D9E4E1"/>
+    <path d="M420 242 L470 250 L420 258 Z" fill="#D9E4E1"/>
+  </g>
+  <g transform="rotate(14 600 230)">
+    <rect x="540" y="170" width="120" height="120" rx="10" fill="#C9A66B"/>
+    <path d="M540 200 H660 M540 230 H660 M540 260 H660" stroke="#B58F55" stroke-width="4"/>
+  </g>
+</svg>
