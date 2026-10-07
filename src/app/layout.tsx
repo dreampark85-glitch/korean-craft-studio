@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { PracticeNotice } from "@/components/PracticeNotice";
@@ -24,6 +25,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <PracticeNotice variant="banner" />
         {children}
         <Footer />
+        {/* Google tag (gtag.js) */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-H3VMZQ04ZV" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-H3VMZQ04ZV');
+          `}
+        </Script>
       </body>
     </html>
   );
